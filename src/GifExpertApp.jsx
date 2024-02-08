@@ -7,7 +7,7 @@ export const GifExpertApp = () => {
 
     //NT: No hacerlo como un push, sino con el spread que es ...(con push muta el objeto)
     const onAddCategory=(NewCategory)=>{
-        console.log(NewCategory)
+        //console.log(NewCategory)
 
         if(categories.includes(NewCategory)) return
         
